@@ -31,7 +31,7 @@ export default function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> MD MAFUJUL HASAN</strong>
+                <strong className="main-name"> TAI HO</strong>
               </h1>
 
               <div className="typing-homeclass">
@@ -41,7 +41,7 @@ export default function Home() {
                 <ul className="homeaboutsociallinks">
                   <li className="socialicons">
                     <a
-                      href="https://github.com/MD-MAFUJUL-HASAN"
+                      href="https://github.com/Justbeingtai"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour  homesocialicons"
@@ -51,7 +51,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.linkedin.com/in/md-mafujul-hasan/"
+                      href="https://www.linkedin.com/in/tai-ho-843279156/"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour  homesocialicons"
@@ -61,7 +61,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.instagram.com/_md_mafujul_hasan_/"
+                      href="https://www.instagram.com/Justbeingtai/"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
@@ -71,7 +71,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="https://www.facebook.com/mh.tonmoy.13"
+                      href="https://www.facebook.com/taihosayshi"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
@@ -81,7 +81,7 @@ export default function Home() {
                   </li>
                   <li className="socialicons">
                     <a
-                      href="mailto:mdtonmoy13.mt@gmail.com/"
+                      href="mailto:taiho051493@yahoo.com/"
                       target="_blank"
                       rel="noreferrer"
                       className="iconcolour homesocialicons"
@@ -94,12 +94,21 @@ export default function Home() {
             </Col>
             <Col md={4} style={{ paddingBottom: 20 }}>
               <div className="img-home-main">
-                <Tilt>
+              <Tilt>
                   <Fade cascade>
                     <img
                       src="./profile.png"
                       alt="home pic"
                       className="img-fluid"
+                      style={{
+                        
+                        borderRadius: '50%',     
+                        objectFit: 'cover',      
+                        display: 'block',        
+                        margin: '0 auto',        
+                        border: '3px solid #fff', 
+                        boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.1)', 
+                      }}
                     />
                   </Fade>
                 </Tilt>

@@ -44,7 +44,7 @@ export default function MyNav() {
                 color: "#fbd9ad",
               }}
             >
-              MD MAFUJUL HASAN
+              TAI HO
             </h5>
           </div>
         </Navbar.Brand>
@@ -111,7 +111,7 @@ export default function MyNav() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
+                href="https://github.com/Justbeingtai/Personal-Portfolio.git"
                 target="_blank"
                 className="fork-btn-inner"
               >

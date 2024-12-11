@@ -26,38 +26,31 @@ const About = () => {
           </Col>
 
           <Col md={7}>
-            <Fade duration={3000}>
+          <Fade duration={3000}>
               <p className="home-about-body">
-                My name is <b className="purple">MD Mafujul Hasan </b> 
-                  and I am a <b className="purple">Computer Science and Engineering </b> 
-                    student at <b className="purple">Sonargaon University </b>
-                      in Dhaka, Bangladesh.
+                My name is <b className="purple">Tai Ho</b> and I am a{" "}
+                <b className="purple">Full Stack Developer</b> who graduated from{" "}
+                <b className="purple">Southern Methodist University (SMU)</b> Full Stack Development Bootcamp in Dallas, Texas.
                 <br />
                 <br />
-                        I am proficient in various programming languages such as &nbsp;
-                  <b className="purple">
-                    {" "}
-                    C, C++, Java, Python, HTML, CSS, PHP, and JavaScript.{" "}
-                  </b>
+                I am proficient in various programming languages such as &nbsp;
+                <b className="purple">
+                  JavaScript (Front-end & Back-end), SQL, HTML, CSS, and Java.
+                </b>
                 <br />
                 <br />
                 I also have experience working with frameworks and libraries such as &nbsp;
-
-                  <b className="purple">
-                    {" "}
-                    NodeJS, ReactJS, OpenCV, Pandas, and NumPy.{" "}
-                  </b>
+                <b className="purple">
+                  Node.js, React.js, Express.js, Vue.js, jQuery, and more.
+                </b>
                 <br />
                 <br />
-                Whenever possible, I also apply my passion for developing
-                products with &nbsp;
-                  <b className="purple">
-                    {" "}
-                    Modern Javascript Library and Frameworks.
-                  </b>
+                Whenever possible, I apply my passion for developing products using &nbsp;
+                <b className="purple">Modern JavaScript Libraries and Frameworks.</b>
                 <br />
-                <br />In my free time, I enjoy learning new technologies and &nbsp;
-                  <b className="purple">building new web technologies and products. </b>
+                <br />
+                In my free time, I enjoy learning new technologies and &nbsp;
+                <b className="purple">building innovative web applications and products.</b>
               </p>
             </Fade>
           </Col>
