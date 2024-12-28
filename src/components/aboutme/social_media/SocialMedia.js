@@ -19,7 +19,7 @@ export default function SocialMedia() {
         <Row className="g-5">
           <Col md={3}>
             <a
-              href="https://www.instagram.com/_md_mafujul_hasan_/"
+              href="https://www.instagram.com/Justbeingtai/"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"
@@ -31,7 +31,7 @@ export default function SocialMedia() {
           </Col>
           <Col md={3}>
             <a
-              href="https://www.facebook.com/mh.tonmoy.13"
+              href="https://www.facebook.com/taihosayshi"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"
@@ -43,7 +43,7 @@ export default function SocialMedia() {
           </Col>
           <Col md={3}>
             <a
-              href="https://github.com/MD-MAFUJUL-HASAN"
+              href="https://github.com/Justbeingtai"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"
@@ -55,7 +55,7 @@ export default function SocialMedia() {
           </Col>
           <Col md={3}>
             <a
-              href="https://www.linkedin.com/in/md-mafujul-hasan/"
+              href="https://www.linkedin.com/in/tai-ho-843279156/"
               target="_blank"
               rel="noreferrer"
               className="icon-colour  home-social-icons"

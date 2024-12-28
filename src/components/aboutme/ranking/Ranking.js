@@ -1,85 +1,52 @@
-import React from "react";
-import { FaHackerrank } from "react-icons/fa";
-import {
-  SiLeetcode,
-  SiHackerearth,
-  SiCodechef,
-  SiCodeforces,
-} from "react-icons/si";
-import { Container, Row } from "react-bootstrap";
-import { Col } from "react-bootstrap";
+import React, { useEffect } from "react";
+import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 
 export default function Ranking() {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "//cdn.credly.com/assets/utilities/embed.js";
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <div className="mt-4">
       <Zoom left cascade>
-        <h1>See my rank</h1>
+        <h1>Professional Badge</h1>
       </Zoom>
       <Container className="mt-5">
-        <Row className="g-5">
-          <Col md={3}>
-            <a
-              href="https://www.hackerrank.com/MD_MAFUJUL_HASAN"
-              target="_blank"
-              rel="noreferrer"
-              className="icon-colour  home-social-icons"
-            >
-              <Zoom cascade>
-                <FaHackerrank />
-              </Zoom>
-            </a>
+        <Row className="justify-content-center">
+          <Col md={6} className="text-center">
+            <div
+              data-iframe-width="250"
+              data-iframe-height="300"
+              data-share-badge-id="2029b586-6d91-4403-93fb-a4c534830cb9"
+              data-share-badge-host="https://www.credly.com"
+              className="badge-frame"
+            ></div>
           </Col>
-          <Col md={3}>
-            <a
-              href="https://leetcode.com/mhtonmoy13/"
-              target="_blank"
-              rel="noreferrer"
-              className="icon-colour  home-social-icons"
-            >
-              <Zoom cascade>
-                <SiLeetcode />
-              </Zoom>
-            </a>
-          </Col>
-          <Col md={3}>
-            <a
-              href="https://www.hackerearth.com/@mdtonmoy13.mt"
-              target="_blank"
-              rel="noreferrer"
-              className="icon-colour  home-social-icons"
-            >
-              <Zoom cascade>
-                <SiHackerearth />
-              </Zoom>
-            </a>
-          </Col>
-          <Col md={3}>
-            <a
-              href="https://www.codechef.com/users/mdtonmoy13mt"
-              target="_blank"
-              rel="noreferrer"
-              className="icon-colour  home-social-icons"
-            >
-              <Zoom cascade>
-                <SiCodechef />
-              </Zoom>
-            </a>
-          </Col>
-          <Col md={3}>
-            <a
-              href="https://codeforces.com/profile/md_mafujul_hasan"
-              target="_blank"
-              rel="noreferrer"
-              className="icon-colour  home-social-icons"
-            >
-              <Zoom cascade>
-                <SiCodeforces />
-              </Zoom>
-            </a>
-          </Col>{" "}
         </Row>
       </Container>
+      <style jsx="true">{`
+        h1 {
+          color: #FBD9AD;
+          font-size: 2.5rem;
+          text-align: center;
+          font-weight: bold;
+        }
+        .badge-frame {
+          margin-top: 20px;
+          background: #f9f9f9;
+          padding: 15px;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      `}</style>
     </div>
   );
 }
