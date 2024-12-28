@@ -35,55 +35,68 @@ function EducationJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2004 - 2014"
+          date="2007 - 2011"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<SchoolIcon />}
         >
           <h4 className="vertical-timeline-element-title">
-            SECONDARY SCHOOL CERTIFICATE
+            HIGH SCHOOL DIPLOMA
           </h4>
           <h4 className="vertical-timeline-element-subtitle mt-2">
-            BOF High School, Gazipur
+            CHINO HIGH SCHOOL, CA.
           </h4>
           <p>
-            Studied here from Class 1 to 10th as a part of secondary school
-            Certificate and gain GPA 5 in my SSC Examination.
+            Studied here from Class 9 to 12th and graduated with a GPA of 2.7.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2014 - 2018"
+          date="2017 - 2022"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<SchoolIcon />}
         >
           <h4 className="vertical-timeline-element-title">
-            DIPLOMA IN ENGINEERING
+            Bachelor of Science in Marketing
           </h4>
           <h4 className="vertical-timeline-element-subtitle mt-2">
-            Dhaka Polytechnic Institute, Dhaka
+            California State University, Fullerton (CSUF)
           </h4>
           <p>
-            Studied Diploma in Computer Technology from Dhaka Polytechnic
-            institute and gain CGPA 2.98.
+            Studied marketing principles, consumer behavior, and business strategies, graduating with a GPA of 2.3.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2019 - 2023"
+          date="2023 - 2024"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<SchoolIcon />}
         >
-          <h4 className="vertical-timeline-element-title">GRADUATION</h4>
+          <h4 className="vertical-timeline-element-title">Full Stack Development Bootcamp Certificate</h4>
           <h4 className="vertical-timeline-element-subtitle mt-2">
-            Sonargaon University, Dhaka
+            Southern Methodist University (SMU)
           </h4>
           <p>
-            Studied Bachelor of Science degree in Computer Science and
-            Engineering field from Sonargaon University and gain CGPA 3.44.
+            Completed an intensive program focused on web development, mastering technologies such as JavaScript, React, Node.js, and MongoDB
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          date="2024-2025"
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<SchoolIcon />}
+        >
+          <h4 className="vertical-timeline-element-title">Java Masterclass Certificate</h4>
+          <h4 className="vertical-timeline-element-subtitle mt-2">
+            Udemy
+          </h4>
+          <p>
+            Gained in-depth knowledge of Java programming, including object-oriented principles, data structures, and advanced Java concepts.
           </p>
         </VerticalTimelineElement>
 

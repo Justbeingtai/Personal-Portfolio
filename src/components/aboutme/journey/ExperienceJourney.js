@@ -35,50 +35,39 @@ function ExperienceJourney() {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderLeft: "7px solid  rgb(78 22 112)" }}
-          date="2023 - Continuing"
+          date="May 2024 cont."
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<PersonIcon />}
         >
           <h5 className="vertical-timeline-element-title">
-            Study World
+            SMU Full Stack Development Bootcamp
           </h5>
           <h6 className="vertical-timeline-element-subtitle mt-2">
-            Branch Manager & Student Counsellor
+            Bootcamp Graduate
           </h6>
-          <p>• Provide Education Counselling to students and guardians for study abroad.</p>
-          <p>• Providing information about Universities/Colleges, Course/Fees, Admissions, Visa procedures etc.</p>
-          <p>• Effective follow-ups with the prospective students/guardians.</p>
-          <p>• Provide daily, Weekly, monthly, and yearly reporting about all operational activities.</p>
-          <p>• Processing student visa applications based on entry requirements and admissions procedures and 
-            enhance their chances of success in interviews by developing their skills.</p>
-          <p>• Preparing applications for admission into different foreign universities.</p>
+          <p>• Completed an intensive program focused on web development technologies like JavaScript, React, Node.js, and MongoDB.</p>
+          <p>• Built full-stack web applications, gaining hands-on experience in front-end and back-end development.</p>
+          <p>• Collaborated with peers to develop and deploy dynamic, user-friendly web solutions.</p>
+          <p>• Enhanced understanding of APIs, database integration, and responsive design.</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2021 - 2022"
+          date="January 2025"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
           icon={<PersonIcon />}
         >
           <h5 className="vertical-timeline-element-title">
-            Excel Telecom (Pvt.) Limited - (National Distributor of SAMSUNG in Bangladesh)
+            Java Masterclass Certificate
           </h5>
           <h6 className="vertical-timeline-element-subtitle mt-2">
-            Management of Information System
+            Udemy
           </h6>
-          <p>• Proficient in developing, deploying and managing computerized systems that gather, retain, evaluate and exhibit 
-            data to facilitate the achievement of organizational aims and objectives.</p>
-          <p>• Proficient in collecting and organizing data from diverse sources, utilizing statistical techniques and software 
-            tools for data analysis and creating comprehensive reports and presentations that showcase significant insights and trends.</p>
-          <p>• Consistently completed assigned tasks in a timely and efficient manner as directed by management, while maintaining 
-            effective communication between the company and employees.</p>
-          <p>• Proficient in monitoring daily business operation costs, verifying and evaluating accounting transactions updates, 
-            and providing corresponding reports to top management.</p>
-          <p>• Skilled in collecting and compiling monthly reports, conducting inventory analysis for month-end, quarterly, 
-            and year-end closing, and submitting reports in accordance with management requirements.</p>
-          <p>• Proficient in developing and maintaining various reporting dashboard, technical support to end-users, 
-            diagnosing hardware and software issues, and collaborating with IT teams to promptly resolve system-related problems.</p>
+          <p>• Gained in-depth knowledge of Java programming, covering core concepts such as object-oriented programming, data structures, and algorithms.</p>
+          <p>• Developed robust applications and refined problem-solving skills using Java.</p>
+          <p>• Learned to implement advanced features like file handling, multithreading, and database connectivity.</p>
+          <p>• Enhanced programming proficiency through hands-on projects and coding challenges.</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
