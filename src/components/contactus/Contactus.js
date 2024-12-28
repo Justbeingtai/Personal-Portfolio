@@ -8,7 +8,7 @@ import { FiPhone, FiAtSign } from "react-icons/fi";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 
 export default function Contactus() {
-  const [formData, setFormData] = useState(new FormData());
+  const [formData, setFormData] = useState({});
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -18,7 +18,7 @@ export default function Contactus() {
     e.preventDefault();
 
     if (!(formData.name && formData.email && formData.message)) {
-      alert("Something went wrong!");
+      alert("Please fill in all fields!");
       return;
     }
 
@@ -29,11 +29,10 @@ export default function Contactus() {
       );
       console.log(response.data.message); // Log the response from the backend
 
-      alert(`Thanks ${formData.name}, I will shortly connect with you!`);
+      alert(`Thanks ${formData.name}, I will connect with you shortly!`);
     } catch (error) {
       console.error("Error submitting the form:", error);
-
-      alert("Backend Server was not Running while submitting the form.");
+      alert("Error submitting the form. Please try again later.");
     }
 
     setFormData({});
@@ -49,7 +48,7 @@ export default function Contactus() {
               className="certificate-description d-flex justify-content-start"
             >
               <Zoom left cascade>
-                <h1 className="aboutme-heading">Contact me</h1>
+                <h1 className="aboutme-heading">Contact Me</h1>
               </Zoom>
             </Col>
             <Col md={12} id="contact" className="mt-3">
@@ -66,7 +65,6 @@ export default function Contactus() {
                           className="form-input input-class"
                           id="username"
                           name="name"
-                          aria-describedby="emailHelp"
                           placeholder="Enter your name"
                           value={formData.name || ""}
                           onChange={handleChange}
@@ -74,15 +72,14 @@ export default function Contactus() {
                       </div>
                       <div className="input-container d-flex flex-column">
                         <label htmlFor="email" className="label-class">
-                          Email address
+                          Email Address
                         </label>
                         <input
                           type="email"
                           className="form-input input-class"
                           name="email"
                           id="email"
-                          aria-describedby="emailHelp"
-                          placeholder="Enter email"
+                          placeholder="Enter your email"
                           value={formData.email || ""}
                           onChange={handleChange}
                         />
@@ -96,7 +93,7 @@ export default function Contactus() {
                           id="userMessage"
                           name="message"
                           rows="3"
-                          placeholder="Enter message"
+                          placeholder="Enter your message"
                           value={formData.message || ""}
                           onChange={handleChange}
                         />
@@ -118,27 +115,22 @@ export default function Contactus() {
                 <Col md={7}>
                   <div className="contacts-details">
                     <a
-                      href={`mailto:mdtonmoy13.mt@gmail.com`}
+                      href={`mailto:your-email@example.com`}
                       className="personal-details"
                     >
                       <div className="detailsIcon">
                         <FiAtSign />
                       </div>
-                      <p style={{ color: "#fbd9ad" }}>
-                        mdtonmoy13.mt@gmail.com
-                      </p>
+                      <p style={{ color: "#fbd9ad" }}>your-email@example.com</p>
                     </a>
-                    <a
-                      href={`tel:+880 1603-550521`}
-                      className="personal-details"
-                    >
+                    <a href={`tel:+19099193035`} className="personal-details">
                       <div className="detailsIcon">
                         <FiPhone />
                       </div>
-                      <p style={{ color: "#fbd9ad" }}>+880 1603-550521</p>
+                      <p style={{ color: "#fbd9ad" }}>+1 (909) 919-3035</p>
                     </a>
                     <a
-                      href="https://maps.app.goo.gl/iUHJvPAhJXwJayo68"
+                      href="https://maps.app.goo.gl/8VmLM2VJW3KJV7Fv7"
                       className="personal-details"
                     >
                       <div className="personal-details">
@@ -146,22 +138,21 @@ export default function Contactus() {
                           <HiOutlineLocationMarker />
                         </div>
                         <p style={{ color: "#fbd9ad" }}>
-                          BOF R/A, Gazipur Cantonment, BOF-1703, Dhaka,
-                          Bangladesh.
+                          505 E Exchange Parkway, Allen, Texas 75002
                         </p>
                       </div>
                     </a>
                   </div>
                   <div className="contact-map">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.833618785371!2d90.41265112695315!3d24.036931700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755db9832166e63%3A0x96050e560e6dc4fa!2sBOF%20Central%20Mosque!5e0!3m2!1sen!2sbd!4v1695023265917!5m2!1sen!2sbd"
-                      frameBorder="0"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6683.437294384536!2d-96.65805738782646!3d33.11647986644879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c10d04a214cbb%3A0x7f70f4edd909439!2s505%20E%20Exchange%20Pkwy%2C%20Allen%2C%20TX%2075002!5e0!3m2!1sen!2sus!4v1735365382940!5m2!1sen!2sus"
+                      width="600"
+                      height="450"
+                      style={{ border: 0 }}
                       allowFullScreen=""
-                      aria-hidden="false"
-                      title="Contact Me"
-                      tabIndex="0"
                       loading="lazy"
-                      className=""
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title="Contact Location"
                     ></iframe>
                   </div>
                 </Col>

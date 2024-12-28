@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
-import ucsc from "../../images/ucsc.png";
-import ufm from "../../images/ufm.png";
-import cbta from "../../images/CBT&A.pdf";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
+import smuIcon from "../../images/smu.png"; // Example SMU logo
+import udemyIcon from "../../images/udemy.png"; // Example Udemy logo
+import finraIcon from "../../images/finra.png"; // Example FINRA logo
 
 export default function Certification() {
   return (
@@ -19,17 +19,18 @@ export default function Certification() {
               className="certificate-description d-flex justify-content-start"
             >
               <Zoom left cascade>
-                <h1 className="aboutme-heading">Certification</h1>
+                <h1 className="aboutme-heading">Certifications</h1>
               </Zoom>
             </Col>
             <Col ms={12} className="mt-3">
               <Row className="g-5">
+                {/* SMU Bootcamp Certificate */}
                 <Col md={4}>
                   <Fade bottom duration={2000} distance="20px">
                     <div className="cert-card">
                       <div className="content">
                         <a
-                          href="https://www.hackerrank.com/certificates/3573ea1a35bb"
+                          href="https://www.credly.com/badges/2029b586-6d91-4403-93fb-a4c534830cb9/public_url"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -38,7 +39,7 @@ export default function Certification() {
                             className="cert-header"
                             style={{ backgroundColor: "white" }}
                           >
-                            {<img className="logo_img" src={ucsc} alt={ucsc} />}
+                            <img className="logo_img" src={smuIcon} alt="SMU" />
                           </div>
                           <div className="content-details fadeIn-top">
                             <h3
@@ -55,24 +56,26 @@ export default function Certification() {
                           className="cert-body-title"
                           style={{ fontWeight: 700, color: "#fbd9ad" }}
                         >
-                          Problem Solving Basic : Programming Fundamentals
+                          SMU Bootcamp: Full Stack Web Development
                         </h2>
                         <h3
                           className="cert-body-subtitle"
                           style={{ color: "#eb90ff", marginBottom: "0px" }}
                         >
-                          - HackerRank
+                          - Southern Methodist University
                         </h3>
                       </div>
                     </div>
                   </Fade>
                 </Col>
+
+                {/* Udemy Java Certificate */}
                 <Col md={4}>
                   <Fade bottom duration={2000} distance="20px">
                     <div className="cert-card">
                       <div className="content">
                         <a
-                          href={cbta}
+                          href="https://www.udemy.com/course/java-the-complete-java-developer-course/?couponCode=ST12MT122624"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -81,7 +84,11 @@ export default function Certification() {
                             className="cert-header"
                             style={{ backgroundColor: "white" }}
                           >
-                            {<img className="logo_img" src={ufm} alt={ufm} />}
+                            <img
+                              className="logo_img"
+                              src={udemyIcon}
+                              alt="Udemy"
+                            />
                           </div>
                           <div className="content-details fadeIn-top">
                             <h3
@@ -98,25 +105,26 @@ export default function Certification() {
                           className="cert-body-title"
                           style={{ fontWeight: 700, color: "#fbd9ad" }}
                         >
-                          Basic Computer Application for Everyone: IT Support
-                          Technician level-1
+                          Java Masterclass: Complete Java Developer Course
                         </h2>
                         <h3
                           className="cert-body-subtitle"
                           style={{ color: "#eb90ff", marginBottom: "0px" }}
                         >
-                          - Bangladesh Technical Education Board
+                          - Udemy
                         </h3>
                       </div>
                     </div>
                   </Fade>
                 </Col>
+
+                {/* FINRA Certificate */}
                 <Col md={4}>
                   <Fade bottom duration={2000} distance="20px">
                     <div className="cert-card">
                       <div className="content">
                         <a
-                          href="https://www.hackerrank.com/certificates/af66a6615aad"
+                          href="https://www.finra.org/"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -125,7 +133,11 @@ export default function Certification() {
                             className="cert-header"
                             style={{ backgroundColor: "white" }}
                           >
-                            {<img className="logo_img" src={ucsc} alt={ucsc} />}
+                            <img
+                              className="logo_img"
+                              src={finraIcon}
+                              alt="FINRA"
+                            />
                           </div>
                           <div className="content-details fadeIn-top">
                             <h3
@@ -142,13 +154,13 @@ export default function Certification() {
                           className="cert-body-title"
                           style={{ fontWeight: 700, color: "#fbd9ad" }}
                         >
-                          Python Basic for : Programming Fundamentals
+                          FINRA Certification
                         </h2>
                         <h3
                           className="cert-body-subtitle"
                           style={{ color: "#eb90ff", marginBottom: "0px" }}
                         >
-                          - HackerRank
+                          - FINRA
                         </h3>
                       </div>
                     </div>
