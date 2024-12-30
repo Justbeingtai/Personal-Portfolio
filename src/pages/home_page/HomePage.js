@@ -30,7 +30,7 @@ export default function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
+                I'm
                 <strong className="main-name"> TAI HO</strong>
               </h1>
 
