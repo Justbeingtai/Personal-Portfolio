@@ -6,6 +6,8 @@ import Particle from "../../Particle";
 import smuIcon from "../../images/smu.png"; // Example SMU logo
 import udemyIcon from "../../images/udemy.png"; // Example Udemy logo
 import finraIcon from "../../images/finra.png"; // Example FINRA logo
+import smuCertificate from "../../assets/SMU_Certificate.pdf"; // Import SMU certificate
+import javaMasterCertificate from "../../assets/JAVA_MASTER.pdf"; // Import Java Master certificate
 
 export default function CertificatePage() {
   return (
@@ -32,11 +34,7 @@ export default function CertificatePage() {
                       <Fade bottom duration={2000} distance="20px">
                         <div className="cert-card">
                           <div className="content">
-                            <a
-                              href="https://www.credly.com/badges/2029b586-6d91-4403-93fb-a4c534830cb9/public_url"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
+                            <a href={smuCertificate} download>
                               <div className="content-overlay"></div>
                               <div
                                 className="cert-header"
@@ -84,11 +82,7 @@ export default function CertificatePage() {
                       <Fade bottom duration={2000} distance="20px">
                         <div className="cert-card">
                           <div className="content">
-                            <a
-                              href="https://www.udemy.com/course/java-the-complete-java-developer-course/?couponCode=ST12MT122624"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
+                            <a href={javaMasterCertificate} download>
                               <div className="content-overlay"></div>
                               <div
                                 className="cert-header"
